@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B714ABB7205CE6FF00DC76DA /* DistanceHistoryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B714ABB6205CE6FF00DC76DA /* DistanceHistoryController.swift */; };
+		B714ABB9205CE87D00DC76DA /* TemperatureHistoryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B714ABB8205CE87D00DC76DA /* TemperatureHistoryController.swift */; };
+		B714ABBB205CE96B00DC76DA /* LiquidHistoryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B714ABBA205CE96B00DC76DA /* LiquidHistoryController.swift */; };
+		B714ABBD205CEA6A00DC76DA /* VolumeHistoryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B714ABBC205CEA6A00DC76DA /* VolumeHistoryController.swift */; };
+		B714ABBF205CEB7D00DC76DA /* WeightHistoryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B714ABBE205CEB7D00DC76DA /* WeightHistoryController.swift */; };
+		B71B61042056597F00ACA58D /* TemperatureController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71B61032056597F00ACA58D /* TemperatureController.swift */; };
+		B7448B12205680B4008B1AB9 /* SpeedController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7448B11205680B4008B1AB9 /* SpeedController.swift */; };
+		B7448B1420568748008B1AB9 /* measuringunitsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7448B1320568748008B1AB9 /* measuringunitsController.swift */; };
+		B7448B172056A751008B1AB9 /* LiquidController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7448B162056A751008B1AB9 /* LiquidController.swift */; };
+		B7448B192056ACB7008B1AB9 /* VolumeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7448B182056ACB7008B1AB9 /* VolumeController.swift */; };
+		B75103FF2068440B00EF187E /* NegationKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75103FE2068440B00EF187E /* NegationKey.swift */; };
+		B778BE78205B8FCB009CE855 /* HistoryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B778BE77205B8FCB009CE855 /* HistoryController.swift */; };
 		B77D2704204D295000F7EEE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77D2703204D295000F7EEE9 /* AppDelegate.swift */; };
 		B77D2706204D295000F7EEE9 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77D2705204D295000F7EEE9 /* FirstViewController.swift */; };
 		B77D2708204D295000F7EEE9 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77D2707204D295000F7EEE9 /* SecondViewController.swift */; };
@@ -34,10 +46,46 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		B75D1753205EEAB0000FFE53 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7706D532055C3EF00AE16FD /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		B714ABB6205CE6FF00DC76DA /* DistanceHistoryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistanceHistoryController.swift; sourceTree = "<group>"; };
+		B714ABB8205CE87D00DC76DA /* TemperatureHistoryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureHistoryController.swift; sourceTree = "<group>"; };
+		B714ABBA205CE96B00DC76DA /* LiquidHistoryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiquidHistoryController.swift; sourceTree = "<group>"; };
+		B714ABBC205CEA6A00DC76DA /* VolumeHistoryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolumeHistoryController.swift; sourceTree = "<group>"; };
+		B714ABBE205CEB7D00DC76DA /* WeightHistoryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightHistoryController.swift; sourceTree = "<group>"; };
+		B71B61032056597F00ACA58D /* TemperatureController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureController.swift; sourceTree = "<group>"; };
+		B7448B11205680B4008B1AB9 /* SpeedController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedController.swift; sourceTree = "<group>"; };
+		B7448B1320568748008B1AB9 /* measuringunitsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = measuringunitsController.swift; sourceTree = "<group>"; };
+		B7448B162056A751008B1AB9 /* LiquidController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiquidController.swift; sourceTree = "<group>"; };
+		B7448B182056ACB7008B1AB9 /* VolumeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolumeController.swift; sourceTree = "<group>"; };
+		B75103FE2068440B00EF187E /* NegationKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NegationKey.swift; sourceTree = "<group>"; };
+		B75D175D205EEAEC000FFE53 /* IntentsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IntentsUI.framework; path = System/Library/Frameworks/IntentsUI.framework; sourceTree = SDKROOT; };
+		B778BE77205B8FCB009CE855 /* HistoryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryController.swift; sourceTree = "<group>"; };
 		B77D2700204D295000F7EEE9 /* Coursework1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Coursework1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B77D2703204D295000F7EEE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B77D2705204D295000F7EEE9 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		B77D2705204D295000F7EEE9 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = FirstViewController.swift; sourceTree = "<group>"; usesTabs = 0; };
 		B77D2707204D295000F7EEE9 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		B77D270A204D295000F7EEE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B77D270C204D295000F7EEE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -76,12 +124,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B75D175C205EEAEC000FFE53 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B75D175D205EEAEC000FFE53 /* IntentsUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B77D26F7204D295000F7EEE9 = {
 			isa = PBXGroup;
 			children = (
 				B77D2702204D295000F7EEE9 /* Coursework1 */,
 				B77D2719204D295000F7EEE9 /* Coursework1Tests */,
 				B77D2724204D295000F7EEE9 /* Coursework1UITests */,
+				B75D175C205EEAEC000FFE53 /* Frameworks */,
 				B77D2701204D295000F7EEE9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -106,6 +163,18 @@
 				B77D270C204D295000F7EEE9 /* Assets.xcassets */,
 				B77D270E204D295000F7EEE9 /* LaunchScreen.storyboard */,
 				B77D2711204D295000F7EEE9 /* Info.plist */,
+				B71B61032056597F00ACA58D /* TemperatureController.swift */,
+				B7448B11205680B4008B1AB9 /* SpeedController.swift */,
+				B7448B1320568748008B1AB9 /* measuringunitsController.swift */,
+				B7448B162056A751008B1AB9 /* LiquidController.swift */,
+				B7448B182056ACB7008B1AB9 /* VolumeController.swift */,
+				B778BE77205B8FCB009CE855 /* HistoryController.swift */,
+				B714ABB6205CE6FF00DC76DA /* DistanceHistoryController.swift */,
+				B714ABB8205CE87D00DC76DA /* TemperatureHistoryController.swift */,
+				B714ABBA205CE96B00DC76DA /* LiquidHistoryController.swift */,
+				B714ABBC205CEA6A00DC76DA /* VolumeHistoryController.swift */,
+				B714ABBE205CEB7D00DC76DA /* WeightHistoryController.swift */,
+				B75103FE2068440B00EF187E /* NegationKey.swift */,
 			);
 			path = Coursework1;
 			sourceTree = "<group>";
@@ -138,6 +207,8 @@
 				B77D26FC204D295000F7EEE9 /* Sources */,
 				B77D26FD204D295000F7EEE9 /* Frameworks */,
 				B77D26FE204D295000F7EEE9 /* Resources */,
+				B7706D532055C3EF00AE16FD /* Embed App Extensions */,
+				B75D1753205EEAB0000FFE53 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -262,9 +333,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B714ABBD205CEA6A00DC76DA /* VolumeHistoryController.swift in Sources */,
+				B71B61042056597F00ACA58D /* TemperatureController.swift in Sources */,
+				B714ABB7205CE6FF00DC76DA /* DistanceHistoryController.swift in Sources */,
+				B714ABB9205CE87D00DC76DA /* TemperatureHistoryController.swift in Sources */,
+				B7448B1420568748008B1AB9 /* measuringunitsController.swift in Sources */,
 				B77D2708204D295000F7EEE9 /* SecondViewController.swift in Sources */,
+				B7448B12205680B4008B1AB9 /* SpeedController.swift in Sources */,
+				B778BE78205B8FCB009CE855 /* HistoryController.swift in Sources */,
 				B77D2704204D295000F7EEE9 /* AppDelegate.swift in Sources */,
+				B7448B192056ACB7008B1AB9 /* VolumeController.swift in Sources */,
+				B7448B172056A751008B1AB9 /* LiquidController.swift in Sources */,
+				B714ABBB205CE96B00DC76DA /* LiquidHistoryController.swift in Sources */,
+				B714ABBF205CEB7D00DC76DA /* WeightHistoryController.swift in Sources */,
 				B77D2706204D295000F7EEE9 /* FirstViewController.swift in Sources */,
+				B75103FF2068440B00EF187E /* NegationKey.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,7 +519,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.Tutorial2.Coursework1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -450,7 +533,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.Tutorial2.Coursework1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
